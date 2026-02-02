@@ -11,6 +11,20 @@
 ## RuyiSDK 网站更新
 
 ## V8 / Chromium
+- 7508964: [riscv]Eliminate -Wexit-time-destructors warnings | https://chromium-review.googlesource.com/c/v8/v8/+/7508964 
+- 7502457: [riscv] Implement AssembleArchSelect | https://chromium-review.googlesource.com/c/v8/v8/+/7502457 
+- 7484947: [riscv] Fix  incorrect code gen | https://chromium-review.googlesource.com/c/v8/v8/+/7484947 
+- 实现wasm解释器 
+   7364683: [riscv] Support Wasm interpreter drumbrake | https://chromium-review.googlesource.com/c/v8/v8/+/7364683 
+
+
+Upstream Port
+- 7495671: [riscv][sandbox] Migrate TrustedPointerTable to range-based type checks | https://chromium-review.googlesource.com/c/v8/v8/+/7495671
+- 7489051: [riscv][acqrel] Added atomic acquire load and release store instructions | https://chromium-review.googlesource.com/c/v8/v8/+/7489051
+- 7417239: [riscv][wasmfx] Fix cmp width in WasmFXResumeThrow | https://chromium-review.googlesource.com/c/v8/v8/+/7417239
+- 7412876: [riscv] [wasmfx] Implement resume_throw | https://chromium-review.googlesource.com/c/v8/v8/+/7412876
+- 7365201: [riscv] Enable trap handling for memory64 | https://chromium-review.googlesource.com/c/v8/v8/+/7365201
+
 
 ## Spidermonkey / Firefox
 
